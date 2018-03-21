@@ -78,6 +78,15 @@ p {
     height: 400px;
 }
 
+/* Contact form */
+
 .form {
     float: left;
+}
+
+/* Portfolio Images */
+
+.portfolio-images {
+    width: 200px;
+    height: 100px;
 }
