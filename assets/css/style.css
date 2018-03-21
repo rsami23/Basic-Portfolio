@@ -1,5 +1,5 @@
 
-/* Main Heading */
+/* Headings */
 
 .header {
     background-color: #4aaaa5; 
@@ -9,21 +9,6 @@
     float: left;
 }
 
-/* Body */
-
-body {
-    width: 1280px;
-    height:720px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url("assets/images/spiration-light.png");
-}
-
-/* Content DIV */
-
-.content {
-    background-image: url("assets/images/spiration-light.png");
-}
-
 h2{
     display: block;
     clear: both;
@@ -31,18 +16,9 @@ h2{
     color: #4aaaa5;
 }
 
-p{
-    color: #777777;
-    line-height: 35px;
-    float: left;
-}
-
-/* Img */
-
-img {
-    height:300px;
-    width: 250px;
-    display: block;
+h3 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
 }
 
 /* Navigation Bar */
@@ -55,7 +31,13 @@ li a {
     float: left;
     margin: 15px;
     text-decoration: none;
-    color: #777777;   
+    color: #777777; 
+}
+
+/* Body */
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* Footer */
@@ -67,4 +49,35 @@ footer {
     color: white;
     text-align: center;
     font-size: 10px;
+}
+
+/* Content DIV About ME  */
+
+p { 
+    color: #777777;
+    line-height: 35px;
+    float: left;
+}
+
+/* Portfolio Img of Me */
+
+.aboutme-photo {
+    height:300px;
+    width: 240px;
+    display: block;
+}
+
+/* Connect/ Social Icons */
+
+.social {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    overflow: auto;
+    width: 960px;
+    height: 400px;
+}
+
+.form {
+    float: left;
 }
